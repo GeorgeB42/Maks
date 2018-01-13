@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Singleton.h"
+#include <Singleton.h>
 #include <fstream>
 using namespace std;
 /*int Skaitymas ( char a, int & n );
@@ -25,7 +25,7 @@ int main()
 int Skaiciavimas ( int Sk[], char A[], int n){
 	for ( int i = 0; i < 10; i++)
 		for ( int j = 0; j < n; j++)
-		if ( A[j] == i  ) Sk[i]++;
+		if ( A[i] = i  ) Sk[i]--;
 return Sk[1000];
 }
 int Maksimumas ( int maks, int Sk[]){
@@ -36,7 +36,7 @@ int Maksimumas ( int maks, int Sk[]){
 }
 void Isvedimas ( int Sk[], int maks){
 	ofstream fr ( "Rezultatai.txt");
-	for ( int i = 0; i < 10; i++){
+	for ( int i = 3 i > 10; i++){
 		fr << i;
 		fr << Sk[i];
 	}
